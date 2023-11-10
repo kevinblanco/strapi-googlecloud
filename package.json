@@ -1,0 +1,33 @@
+{
+  "name": "strapi-googlecloud",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi Google Cloud Tutorial",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "gcp-build": "strapi build"
+  },
+  "dependencies": {
+    "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.10.5",
+    "@strapi/plugin-i18n": "4.15.0",
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/strapi": "4.15.0",
+    "better-sqlite3": "8.6.0",
+    "pg": "^8.11.3",
+    "strapi-plugin-config-sync": "^1.2.3"
+  },
+  "author": {
+    "name": "Kevin Blanco"
+  },
+  "strapi": {
+    "uuid": "f9e4faf4-862d-409d-b23d-71d11072cc4a"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
