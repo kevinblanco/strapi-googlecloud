@@ -11,6 +11,14 @@ I'm a Google Developer Expert in Google Cloud Platform. Today,[In this article I
 - npm run build
 - npm run develop
 
+## Deploying with Terraform
+
+In case you want to skip setting up all the required Google Cloud architecture you can use the Terraform file included in this repo, just make sure to create a `service-account.json` with the service account JSON credentials that has access to yout GCP project, then run: 
+
+```
+terraform apply
+```
+And it will generate all the archicture elements Strapi needs to run using the parameters and values you entered in the Terraform prompt. 
 
 ## 📚 Learn more
 
